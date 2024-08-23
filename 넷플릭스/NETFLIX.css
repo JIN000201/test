@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #fff;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container{
+    width: 100%;
+    height: 1630px;
+    display: lnline-block;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/NETFLIX.jpg);
+    background-position: center
+
+    
+}
+.header{
+    width: 100%;
+    height: 8%;
+    display: block;
+    
+}
+
+
+
+.header-intro{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px; 
+    padding-bottom:40px;
+    padding-left: calc((100% - 90%) / 2);
+    padding-right: calc((100% - 90%) / 2);
+
+}
+
+
+.logo{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 140px;
+    height: 38px;
+}
+.header-intro2{
+    display: flex;
+    column-gap: 10px;
+}
+
+.select_btn{
+    cursor: pointer;
+    width: 113px;
+    height: 40px;
+    background-color: #000;
+    color: #757575;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    /* padding: 10px; */
+    background-color: #e50914;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    /* cursor: pointer; */
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.008px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+}
+
+.container .main{
+    height: 42%;
+}
+
+ul {
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 28px;
+    margin-top: 57px;
+
+}
+
+ul li{
+    margin: 0;
+    word-break: keep-all;
+    text-align: center;
+    /* font-family: ; */
+    list-style: none;
+}
+
+/* li{
+    display: ;
+} */
+
+.title{
+    width: 518px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.03px;
+    
+}
+
+.title2{
+    width: 520px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: ;
+    list-style: none;
+}
+
+.title3{
+    width: 306px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.008px;
+}
+
+.user_email{
+    box-sizing: border-box;
+    width: 550px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 100px;
+    padding-left: 20px;
+    border: none;
+}
+
+
+.start{
+    width: 210px;
+    height: 60px;
+    /* padding: 1px 6px; */
+    background-color: #e50914;
+    /* border-radius: 5px; */
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 10px; */
+    font-family: Spoqa Han Sans Neo', 'sans-serif;
+    /* font-weight: 400; */
+    line-height: 100px;
+}
+
+.title4{
+    width: 322px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.0008px;
+}
+
+.divider{
+    height: 10%;
+    background: :linear-gradient(to top, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.25) 75%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.footer{
+    /* display: flex; */
+    /* height: 40%; */
+    height: 10%;
+    color: #fff;
+    background-color: #000;
+    /* padding-top: 46px; */
+    padding-left: calc((100% - 90%) / 2);
+    padding-right: calc((100% - 90%) / 2);
+    padding-bottom: 400px;
+}
+
+.footer_ask{
+    display: flex;
+    font-size: 20px;
+    color: #c8c8c8;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px
+    font-family: Spoqa Han Sans Neo', 'sans-serif;
+    letter-spacing: -0.01px;
+}
+
+.footer_nav{
+    display: grid;
+    grid-template-columns: repeat(4, 205px);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    row-gap: 16px;
+    column-gap: 60px;
+    
+    
+}
+.footer_nav a {
+    text-decoration: none;
+    color: #acacac;
+    font-family: ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+
+/* .select_btn1{
+    cursor: pointer;
+    width: 113px;
+    height: 40px;
+    background-color:#000 ;
+    color: #7575;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+option{
+    font-weight: normal;
+    display: block;
+    padding-block-start: 0px;
+    padding-block-end: 1px;
+    min-block-size: 1.2em;
+    padding-inline: 2px;
+    white-space: nowrap;
+}
+
+h3{
+    font-size: 22px;
+}
+
+address {
+    margin-top: 46px;
+    color: #919191;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.008px;
+    font-style: normal;
+}
